@@ -19,6 +19,6 @@ Test data is feeded from [images](https://github.com/a0n0k0i0t/Defect-Detection-
   <li> Using ICA learned basis images matrix `U`:   
     In this method the ICA learned matrix `U` is used and to determine the presence or absence of defects in a sample cosine similarity is used.</li>
    <li> Using directly calculated matrix `U` from training sample `X`:   
-     In this method the `U` matrix is not generated from training data instead test data is directly tested from `X` and reconstruction error is used to determine the presence or absence of defects.   
+     In this method the `U` matrix is not generated from training data instead test data is directly tested from `X` and reconstruction error is used to determine the presence or absence of defects.      
      Formula: <img src=https://github.com/a0n0k0i0t/Defect-Detection-in-Solar-Modules-Using-ICA-Basis-Images/blob/main/direct_formula.png?raw=true,alt='formula'></li>
 </ul>

@@ -13,7 +13,7 @@ Also, one other method is used where we don't calculate `U` and test directly fr
 `U` determines the defectiveness of a solar cell image. A test solar cell subimage is reconstructed as linear combination of the learned basis images. It is expected that a defect-free solar cell subimage can be well represented by the basis images and the reconstructed image of a defective solar cell subimage will be distinctly deviated from its original one.   
 ## Validation:   
 Validation is done by the the matching the predicted labels value with labels in [labels.csv](https://github.com/a0n0k0i0t/Defect-Detection-in-Solar-Modules-Using-ICA-Basis-Images/blob/main/labels.csv).   
-## Test data Predtiction:   
+## Test data Prediction:   
 Test data is feeded from [images](https://github.com/a0n0k0i0t/Defect-Detection-in-Solar-Modules-Using-ICA-Basis-Images/tree/main/images) file and morphology is performed same as train data. Then data is tested using two methods:
 <ul>
   <li> Using ICA learned basis images matrix `U`:   
